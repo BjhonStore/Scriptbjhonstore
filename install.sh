@@ -307,7 +307,7 @@ JSON
 # // Membuat Service
 cat> /etc/systemd/system/xray.service << END
 [Unit]
-Description=Xray by VnzVPN
+Description=Xray by Bjhon
 Documentation=https://indo-ssh.com
 After=network.target nss-lookup.target
 
@@ -327,8 +327,8 @@ END
 # // Membuat service Lainya
 cat> /etc/systemd/system/limit.service << END
 [Unit]
-Description=Limit All Service By VnzVPN
-Documentation=https://t.me/VnzVPN
+Description=Limit All Service By Bjhon
+Documentation=https://t.me/BjhonStore
 After=syslog.target network-online.target
 
 [Service]
@@ -342,8 +342,8 @@ END
 
 cat> /etc/systemd/system/badvpn.service << END
 [Unit]
-Description=BadVPN Gaming Support Port 7300 By VnzVPN
-Documentation=https://t.me/VnzVPN
+Description=BadVPN Gaming Support Port 7300 By Bjhon
+Documentation=https://t.me/BjhonStore
 After=syslog.target network-online.target
 
 [Service]
@@ -361,7 +361,7 @@ END
 
 cat> /etc/systemd/system/edu.service << END
 [Unit]
-Description=WebSocket All OS By VnzVM
+Description=WebSocket All OS By Bjhon
 Documentation=https://github.com/Rerechan-Team
 After=syslog.target network-online.target
 
@@ -492,7 +492,7 @@ fi
 }
 valid_keys=$(fetch_valid_keys)
 echo ""
-figlet -k BM-AIO | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
+figlet -k Bjhon-AIO | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
 echo "───────────────────────────────────────────────────────────────────────•"
 echo ""
 echo ""
@@ -1180,7 +1180,7 @@ fi
 client_config() {
 clear
 echo ""
-figlet -k VNZ-AIO | lolcat && figlet -k Hysteria | lolcat
+figlet -k Bjhon-AIO | lolcat && figlet -k Hysteria | lolcat
 echo -e "\e[1;34m************************************"
 echo -e "   Generating Client configuration"
 echo -e "       please wait for 5 seconds..."
@@ -1227,7 +1227,7 @@ script by: BjhonStore
 EOF
 chmod +x /etc/hysteria/client/config.json
 echo ""
-figlet -k VNZ-AIO | lolcat && figlet -k Hysteria | lolcat
+figlet -k Bjhon-AIO | lolcat && figlet -k Hysteria | lolcat
 echo -e "\e[1;36m----------------------"
 echo -e " Client Configuration"
 echo -e "----------------------\e[0m"
