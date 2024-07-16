@@ -130,7 +130,7 @@ cat> /etc/issue.net << END
 <p style="text-align:center">
 <font color="#0a00ff">┏━━━━━━━━━━━━━━━━━━━┓</b> </font><br>
 <font color="#ffff00"><b>⪼⪼۞ BJHONSTORE  ۞⪻⪻</b></font><br>
-<font color="#0a00ff">┗━━━━━━━━━━━━━━━━━━━┛</b></font><br>
+<font color="#0a00ff"><b>┗━━━━━━━━━━━━━━━━━━━┛</b></font><br>
 <font color="#6495ED"><b>⪼⪼  SERVER PREMIUM ⪻⪻</b></font> <br>
 <font color="#00ffff"><b>THANK YOU FOR USING SERVICE</b></font><br>
 <font color="#ff0000"><b> ⪼⪼  !!! TOLONG IKUTI RULES SERVER  !!!  ⪻⪻</b></font><br>
@@ -142,7 +142,7 @@ cat> /etc/issue.net << END
 <font color="#0a00ff">┏━━━━━━━━━━━━━━━━━━━━━━┓</b> </font><br>
 <font color="#ffff00"><b> Admin : https://wa.link/p1t6ke</b></font><br>
 <font color="#ffff00"><b> Admin : https://wa.link/hdi8gk</b></font><br>
-<font color="#0a00ff">┗━━━━━━━━━━━━━━━━━━━━━━┛</br></font>
+<font color="#0a00ff"><b>┗━━━━━━━━━━━━━━━━━━━━━━┛</br></font>
 END
 cat>  /etc/default/dropbear << END
 # disabled because OpenSSH is installed
